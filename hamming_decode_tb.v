@@ -21,7 +21,7 @@ module hamming_decode_tb();
 
         // Test case 2: Odd parity
         code = 7'b1010110;
-        parity_type = 1; // Even parity
+        parity_type = 1; // Odd parity
         #10;
         $display("Code: %b, Decoded: %b, Error: %b, Parity: Even",code, decoded_data, error);
 
