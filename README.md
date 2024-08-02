@@ -19,6 +19,7 @@ This project involves the implementation of Hamming Code in Verilog. The project
 The Hamming Code uses a specific bit pattern for error detection and correction. The 7-bit Hamming Code is represented as follows:
 
 |   Code   | H7 | H6 | H5 | H4 | H3 | H2 | H1 |
+|----------|----|----|----|----|----|----|----|
 | Position | D4 | D3 | D2 | P3 | D1 | P2 | P1 |
 |----------|----|----|----|----|----|----|----|
 | Bit      | 1  | 1  | 0  | 0  | 1  | 0  | 0  |
